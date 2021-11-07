@@ -12,4 +12,5 @@ code for risk change and crisis mangement assignment to make a monte carlo simul
 <ul>
   <li>https://www.youtube.com/watch?v=MpiJZ2hl8VQ</li>
   <li>https://www.w3schools.com/python/python_while_loops.asp</li>
+  <li>https://support.microsoft.com/en-us/office/introduction-to-monte-carlo-simulation-in-excel-64c0ba99-752a-4fa8-bbd3-4450d8db16f1</li>
   </ul>
