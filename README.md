@@ -15,4 +15,7 @@ code for risk change and crisis mangement assignment to make a monte carlo simul
   <li>https://support.microsoft.com/en-us/office/introduction-to-monte-carlo-simulation-in-excel-64c0ba99-752a-4fa8-bbd3-4450d8db16f1</li>
   <li>https://www.youtube.com/watch?v=PMISi2ZyuR8</li>
   <li>https://www.youtube.com/watch?v=wKdmEXCvo9s</li>
+  <li>https://www.youtube.com/watch?v=iUKCIh3SotE</li>
+  <li>https://www.youtube.com/watch?v=1TgOQvZ88hw</li>
+  <li>https://www.youtube.com/watch?v=BfS2H1y6tzQ</li>
   </ul>
