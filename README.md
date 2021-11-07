@@ -9,3 +9,7 @@ code for risk change and crisis mangement assignment to make a monte carlo simul
 <h4>Issues:</h4>
 
 <h4>Resources used:</h4>
+<ul>
+  <li>https://www.youtube.com/watch?v=MpiJZ2hl8VQ</li>
+  <li>https://www.w3schools.com/python/python_while_loops.asp</li>
+  </ul>
