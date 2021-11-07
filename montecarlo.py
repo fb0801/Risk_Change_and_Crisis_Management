@@ -1,12 +1,12 @@
 #module to use
 import random
 
-item=input()
+
 prob=input()
 
-while item and prob !='':
+while prob !='':
 
 
-    for in range(1, 100):
+    for num in range(1, prob):
 
-        
+        print("Trial",num,':',,"% chance of happening")
