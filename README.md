@@ -1,6 +1,6 @@
 # Risk_Change_and_Crisis_Management
 <h4>Description:</h4>
-code for risk change and crisis mangement assignment to make a monte carlo simulation and other things
+code for risk change and crisis mangement assignment to make a monte carlo simulation 
 
 
 <h4>Requirements:</h4>
@@ -14,4 +14,5 @@ code for risk change and crisis mangement assignment to make a monte carlo simul
   <li>https://www.w3schools.com/python/python_while_loops.asp</li>
   <li>https://support.microsoft.com/en-us/office/introduction-to-monte-carlo-simulation-in-excel-64c0ba99-752a-4fa8-bbd3-4450d8db16f1</li>
   <li>https://www.youtube.com/watch?v=PMISi2ZyuR8</li>
+  <li>https://www.youtube.com/watch?v=wKdmEXCvo9s</li>
   </ul>
