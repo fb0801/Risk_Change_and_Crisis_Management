@@ -10,4 +10,4 @@ while issue_name !='QUIT':
 
     for num in range(1, prob):
 
-        print("Trial",num,':',,"% chance of happening")
+        print("Trial",num,':',random(),"% chance of happening")
