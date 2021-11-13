@@ -5,9 +5,14 @@ code for risk change and crisis mangement assignment to make a monte carlo simul
 
 <h4>Requirements:</h4>
 
-
+<h4>Future work:</h4>
+<ul>
+  
+  </ul>
 <h4>Issues:</h4>
-
+<ul>
+  
+  </ul>
 <h4>Resources used:</h4>
 <ul>
   <li>https://www.youtube.com/watch?v=MpiJZ2hl8VQ</li>
@@ -19,4 +24,5 @@ code for risk change and crisis mangement assignment to make a monte carlo simul
   <li>https://www.youtube.com/watch?v=1TgOQvZ88hw</li>
   <li>https://www.youtube.com/watch?v=BfS2H1y6tzQ</li>
   https://www.programiz.com/python-programming/examples/random-number
+  https://www.freecodecamp.org/news/python-do-while-loop-example/
   </ul>
