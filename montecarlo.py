@@ -2,7 +2,7 @@
 import random
 
 
-#prob=int(input('Enter probability: '))
+prob=int(input('Enter probability: '))
 run = True
 
 while run:
