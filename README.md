@@ -4,10 +4,15 @@ code for risk change and crisis mangement assignment to make a monte carlo simul
 
 
 <h4>Requirements:</h4>
+<ul>
+  <li>Any Python version 3+</li>
+  </ul>
 
 <h4>Future work:</h4>
 <ul>
-  
+  <li>Create graphs to represent results with matplotlib or other modules</li>
+  <li>replace CLI with a GUI </li>
+  <li>rewrite application using OOP</li>
   </ul>
 <h4>Issues:</h4>
 <ul>
@@ -23,6 +28,6 @@ code for risk change and crisis mangement assignment to make a monte carlo simul
   <li>https://www.youtube.com/watch?v=iUKCIh3SotE</li>
   <li>https://www.youtube.com/watch?v=1TgOQvZ88hw</li>
   <li>https://www.youtube.com/watch?v=BfS2H1y6tzQ</li>
-  https://www.programiz.com/python-programming/examples/random-number
-  https://www.freecodecamp.org/news/python-do-while-loop-example/
+  <li>https://www.programiz.com/python-programming/examples/random-number</li>
+  <li>https://www.freecodecamp.org/news/python-do-while-loop-example/</li>
   </ul>
