@@ -3,8 +3,9 @@ import random
 
 
 prob=input()
+issue_name = str(input())
 
-while prob !='':
+while issue_name !='QUIT':
 
 
     for num in range(1, prob):
