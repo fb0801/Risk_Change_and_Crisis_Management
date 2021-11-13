@@ -2,8 +2,8 @@
 import random
 
 
-prob=input()
-issue_name = str(input())
+prob=input('Enter probability: ')
+issue_name = str(input('Enter risk name: '))
 
 while issue_name !='QUIT':
 
