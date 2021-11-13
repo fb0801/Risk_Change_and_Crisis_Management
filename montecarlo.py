@@ -14,4 +14,4 @@ while run:
 
     for num in range(1, prob):
         predict=random.randint(1,100)
-        print("Trial",num,' for issue',issue_name,':',predict +'%',"% chance of happening")
+        print("Trial",num,' for issue',issue_name,':',str(predict) + '%',"chance of happening")
