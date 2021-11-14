@@ -19,6 +19,10 @@ code for risk change and crisis mangement assignment to make a monte carlo simul
 <ul>
   
   </ul>
+  
+  <h4>Further notes:</h4>
+If you do use this please reference it
+
 <h4>Resources used:</h4>
 <ul>
   <li>https://www.youtube.com/watch?v=MpiJZ2hl8VQ</li>
@@ -33,5 +37,4 @@ code for risk change and crisis mangement assignment to make a monte carlo simul
   <li>https://www.freecodecamp.org/news/python-do-while-loop-example/</li>
   </ul>
 
-<h4>Further notes</h4>
-If you do use this please reference it
+
