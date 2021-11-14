@@ -37,6 +37,7 @@ If you do use this please reference it
   <li>https://www.freecodecamp.org/news/python-do-while-loop-example/</li>
   <li>https://www.youtube.com/watch?v=jiPmaif9szQ</li>
   <li>https://www.youtube.com/watch?v=WsnBNjXP0CM</li>
+  <li>https://stackoverflow.com/questions/33458074/how-to-create-a-table-in-python</li>
   </ul>
 
 
