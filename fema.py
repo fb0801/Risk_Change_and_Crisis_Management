@@ -34,6 +34,8 @@ def user_risks():
         if risk_sev or risk_hid or risk_lik not in range(0,10):
             print('out of range')
             user_risks()
+        elif type(risk_sev) or type(risk_hid) or type(risk_lik) != int:
+            
         else:
             calculate_results(risk_name, risk_sev, risk_hid, risk_lik)
 
