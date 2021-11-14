@@ -6,7 +6,7 @@ code for risk change and crisis mangement assignment to make a monte carlo simul
 <h4>Requirements:</h4>
 <ul>
   <li>Any Python version 3+</li>
-  <li>code editor </li>
+  <li>code editor like VSCode or a online python interpreter</li>
   </ul>
 
 <h4>Future work:</h4>
