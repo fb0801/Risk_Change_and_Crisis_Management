@@ -6,7 +6,7 @@ severity = impact
 hide = risk of us not seeing it
 '''
 def display_results(risk_name, risk_sev, risk_hid, risk_lik, result):
-    print()
+    print(risk_name, risk_sev, risk_hid, risk_lik, result)
 
 
 def calculate_results(risk_name, risk_sev, risk_hid, risk_lik):
@@ -33,6 +33,7 @@ def user_risks():
 
         if risk_sev, risk_hid, risk_lik not in range(0,10):
             print('out of range')
+            user_risks():
         else:
             calculate_results(risk_name, risk_sev, risk_hid, risk_lik):
 
