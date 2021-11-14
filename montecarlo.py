@@ -2,11 +2,12 @@
 import random
 
 
-prob=int(input('Enter interation range: ')) #takes user input
+
 run = True
 
 while run:
     #while running will ask for the risk name and display different probabilites
+    prob=int(input('Enter interation range: ')) #takes user input
     issue_name = str(input('Enter risk name: '))
     if issue_name == 'QUIT':
         run = False
