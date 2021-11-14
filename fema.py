@@ -31,11 +31,11 @@ def user_risks():
         if issue_name == 'QUIT':
             run = False
 
-        if risk_sev, risk_hid, risk_lik not in range(0,10):
+        if risk_sev or risk_hid or risk_lik not in range(0,10):
             print('out of range')
-            user_risks():
+            user_risks()
         else:
-            calculate_results(risk_name, risk_sev, risk_hid, risk_lik):
+            calculate_results(risk_name, risk_sev, risk_hid, risk_lik)
 
 
 def main_menu():
