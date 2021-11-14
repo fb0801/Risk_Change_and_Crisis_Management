@@ -35,6 +35,8 @@ If you do use this please reference it
   <li>https://www.youtube.com/watch?v=BfS2H1y6tzQ</li>
   <li>https://www.programiz.com/python-programming/examples/random-number</li>
   <li>https://www.freecodecamp.org/news/python-do-while-loop-example/</li>
+  <li>https://www.youtube.com/watch?v=jiPmaif9szQ</li>
+  <li>https://www.youtube.com/watch?v=WsnBNjXP0CM</li>
   </ul>
 
 
