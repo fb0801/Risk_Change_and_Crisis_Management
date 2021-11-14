@@ -11,7 +11,7 @@ def display_results(risk_name, risk_sev, risk_hid, risk_lik, result):
 
 def calculate_results(risk_name, risk_sev, risk_hid, risk_lik):
 
-    result = risk,sev * risk_hid * risk_lik
+    result = risk_sev * risk_hid * risk_lik
     
     display_results(risk_name, risk_sev, risk_hid, risk_lik, result)
     
