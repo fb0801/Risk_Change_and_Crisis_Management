@@ -31,13 +31,15 @@ def user_risks():
         if risk_name == 'QUIT':
             run = False
 
-        if risk_sev or risk_hid or risk_lik not in range(0,10):
-            print('out of range')
+        if risk_sev and risk_hid and risk_lik in range(1,10):
+            calculate_results(risk_name, risk_sev, risk_hid, risk_lik)
+            
             user_risks()
-        elif type(risk_sev) or type(risk_hid) or type(risk_lik) != int:
+        elif risk_sev or risk_hid or risk_lik != int:
+            print('not valid')
             
         else:
-            calculate_results(risk_name, risk_sev, risk_hid, risk_lik)
+            print('out of range')
 
 
 def main_menu():
