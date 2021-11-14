@@ -28,7 +28,7 @@ def user_risks():
         risk_hid = int(input('Enter hideability : '))
         risk_lik = int(input('Enter likelyhood : '))
         
-        if issue_name == 'QUIT':
+        if risk_name == 'QUIT':
             run = False
 
         if risk_sev or risk_hid or risk_lik not in range(0,10):
@@ -41,3 +41,8 @@ def user_risks():
 def main_menu():
     print('Welcome to the FEMA application')
     user_risks()
+
+
+
+if __name__ =='__main__':
+    main_menu()
