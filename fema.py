@@ -1,5 +1,9 @@
 '''
 FEMA
+
+likely = prob
+severity = impact
+hide = risk of us not seeing it
 '''
 def display_results(risk_name, risk_sev, risk_hid, risk_lik, result):
     print()
