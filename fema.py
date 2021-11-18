@@ -5,6 +5,10 @@ likely = prob
 severity = impact
 hide = risk of us not seeing it
 '''
+
+def store_risks():
+    
+
 def display_results(risk_name, risk_sev, risk_hid, risk_lik, result):
     print('risk name | risk sev | risk hid | risk lik | result')
     print(risk_name, risk_sev, risk_hid, risk_lik, result)
@@ -38,6 +42,8 @@ def user_risks():
             user_risks()
         elif risk_sev or risk_hid or risk_lik != int:
             print('not valid')
+        elif risk_name =="show":
+            display_results(risk_name, risk_sev, risk_hid, risk_lik, result)
             
         else:
             print('out of range')
