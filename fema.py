@@ -7,6 +7,8 @@ hide = risk of us not seeing it
 '''
 
 def store_risks(risk_name, risk_sev, risk_hid, risk_lik, result):
+    fema_results = []
+    fema_results.append(risk_name, risk_sev, risk_hid, risk_lik, result)
     
 
 def display_results(risk_name, risk_sev, risk_hid, risk_lik, result):
