@@ -7,11 +7,14 @@ hide = risk of us not seeing it
 '''
 fema_results = []
 def store_risks(risk_name, risk_sev, risk_hid, risk_lik, result):
+    #function to store results
     
     fema_results.append(risk_name, risk_sev, risk_hid, risk_lik, result)
     
 
 def display_results(risk_name, risk_sev, risk_hid, risk_lik, result):
+    #function to display results
+    
     for results in fema_results:
         print(results)
 '''
@@ -21,6 +24,7 @@ def display_results(risk_name, risk_sev, risk_hid, risk_lik, result):
 '''
 
 def calculate_results(risk_name, risk_sev, risk_hid, risk_lik):
+    #function to calculate
 
     result = risk_sev * risk_hid * risk_lik
     
