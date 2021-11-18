@@ -41,7 +41,7 @@ def user_risks():
         
         if risk_name == 'QUIT':
             run = False
-         elif risk_name =="show":
+        elif risk_name =="show":
             display_results(risk_name, risk_sev, risk_hid, risk_lik, result)
         
 
