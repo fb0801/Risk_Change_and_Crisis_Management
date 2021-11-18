@@ -5,16 +5,20 @@ likely = prob
 severity = impact
 hide = risk of us not seeing it
 '''
-
+fema_results = []
 def store_risks(risk_name, risk_sev, risk_hid, risk_lik, result):
-    fema_results = []
+    
     fema_results.append(risk_name, risk_sev, risk_hid, risk_lik, result)
     
 
 def display_results(risk_name, risk_sev, risk_hid, risk_lik, result):
+    for results in fema_results:
+        print(results)
+'''
+def display_results(risk_name, risk_sev, risk_hid, risk_lik, result):
     print('risk name | risk sev | risk hid | risk lik | result')
     print(risk_name, risk_sev, risk_hid, risk_lik, result)
-
+'''
 
 def calculate_results(risk_name, risk_sev, risk_hid, risk_lik):
 
@@ -37,6 +41,9 @@ def user_risks():
         
         if risk_name == 'QUIT':
             run = False
+         elif risk_name =="show":
+            display_results(risk_name, risk_sev, risk_hid, risk_lik, result)
+        
 
         if risk_sev and risk_hid and risk_lik in range(1,10):
             calculate_results(risk_name, risk_sev, risk_hid, risk_lik)
