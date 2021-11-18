@@ -6,6 +6,7 @@ severity = impact
 hide = risk of us not seeing it
 '''
 def display_results(risk_name, risk_sev, risk_hid, risk_lik, result):
+    print('risk name | risk sev | risk hid | risk lik | result')
     print(risk_name, risk_sev, risk_hid, risk_lik, result)
 
 
