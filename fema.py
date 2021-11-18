@@ -43,7 +43,7 @@ def user_risks():
             run = False
         elif risk_name =="show":
             run = False
-            display_results()
+            display_results(risk_name, risk_sev, risk_hid, risk_lik, result)
         
 
         if risk_sev and risk_hid and risk_lik in range(1,10):
