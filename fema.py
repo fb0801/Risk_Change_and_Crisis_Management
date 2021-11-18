@@ -24,7 +24,8 @@ def calculate_results(risk_name, risk_sev, risk_hid, risk_lik):
 
     result = risk_sev * risk_hid * risk_lik
     
-    display_results(risk_name, risk_sev, risk_hid, risk_lik, result)
+    store_risks(risk_name, risk_sev, risk_hid, risk_lik, result)
+    #display_results(risk_name, risk_sev, risk_hid, risk_lik, result)
     
 
 
@@ -41,6 +42,7 @@ def user_risks():
         
         if risk_name == 'QUIT':
             run = False
+            display_results(risk_name, risk_sev, risk_hid, risk_lik, result)
         
 
         if risk_sev and risk_hid and risk_lik in range(1,10):
