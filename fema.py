@@ -40,7 +40,7 @@ def user_risks():
         risk_hid = int(input('Enter hideability : '))
         risk_lik = int(input('Enter likelyhood : '))
         
-        if risk_name == 'QUIT' || 'show':
+        if risk_name == 'QUIT' or 'show':
             run = False
             display_results(risk_name, risk_sev, risk_hid, risk_lik, result)
         
