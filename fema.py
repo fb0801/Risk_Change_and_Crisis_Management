@@ -54,10 +54,6 @@ def user_risks():
         else:
             print('out of range')
 
-        if risk_name =="show":
-            display_results(risk_name, risk_sev, risk_hid, risk_lik, result)
-        
-
 
 def main_menu():
     print('Welcome to the FEMA application')
