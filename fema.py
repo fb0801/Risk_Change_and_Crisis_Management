@@ -39,8 +39,8 @@ def store_risks(risk_name, risk_sev, risk_hid, risk_lik, result):
 def display_results(risk_name, risk_sev, risk_hid, risk_lik):
     #function to display results
     
-    for results in fema_results_dict:
-        print(results)
+    for results in fema_results_dict.values():
+        print(results\n)
 '''
 def display_results(risk_name, risk_sev, risk_hid, risk_lik, result):
     print('risk name | risk sev | risk hid | risk lik | result')
