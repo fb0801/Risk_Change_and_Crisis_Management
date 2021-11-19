@@ -18,9 +18,9 @@ def store_risks(risk_name, risk_sev, risk_hid, risk_lik, result):
     
     fema_results.append(risk_name)
     fema_risk_sev.append(risk_sev)
-    (risk_hid)
-    (risk_lik
-    (result)
+    fema_risk_hid.append(risk_hid)
+    fema_risk_lik.append(risk_lik
+    fema_result.append(result)
     
 
 def display_results(risk_name, risk_sev, risk_hid, risk_lik):
