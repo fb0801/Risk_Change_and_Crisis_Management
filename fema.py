@@ -40,14 +40,14 @@ def user_risks():
     while run:
         #while running will ask for the risk name and other factors
         risk_name=str(input('Enter name: ')) #takes user input
-        risk_sev = int(input('Enter severity : '))
-        risk_hid = int(input('Enter hideability : '))
-        risk_lik = int(input('Enter likelyhood : '))
+        risk_sev = int(input('Enter severity between 1-10: '))
+        risk_hid = int(input('Enter hideability between 1-10: '))
+        risk_lik = int(input('Enter likelyhood between 1-10 : '))
         
         if risk_name == 'QUIT' or 'show':
             run = False
             display_results(risk_name, risk_sev, risk_hid, risk_lik)
-        break
+        
 
         if risk_sev and risk_hid and risk_lik in range(1,10):
             calculate_results(risk_name, risk_sev, risk_hid, risk_lik)
