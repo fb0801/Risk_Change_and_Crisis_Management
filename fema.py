@@ -13,6 +13,14 @@ fema_risk_hid = []
 fema_risk_lik = []
 fema_result = []
 
+fema_results_dict = {
+"risk name":,
+"risk sev":,
+"risk hid":,
+"risk lik":,
+"result":,
+    }
+
 def store_risks(risk_name, risk_sev, risk_hid, risk_lik, result):
     #function to store results
     
