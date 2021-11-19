@@ -46,7 +46,7 @@ def user_risks():
         
         if risk_name == 'QUIT' or 'show':
             run = False
-            display_results(risk_name, risk_sev, risk_hid, risk_lik)
+            display_results(risk_name, risk_sev, risk_hid, risk_lik, result)
         break
 
         if risk_sev and risk_hid and risk_lik in range(1,10):
