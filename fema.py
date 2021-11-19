@@ -46,7 +46,7 @@ def user_risks():
         
         if risk_name == 'QUIT' or 'show':
             run = False
-            display_results(risk_name, risk_sev, risk_hid, risk_lik, result)
+            display_results(risk_name, risk_sev, risk_hid, risk_lik)
         break
 
         if risk_sev and risk_hid and risk_lik in range(1,10):
@@ -54,7 +54,9 @@ def user_risks():
             
             user_risks()
         elif risk_sev or risk_hid or risk_lik != int:
-            print('not valid')  
+            print('not valid')
+        elif risk_name == show:
+            display_results()
         else:
             print('out of range')
 
