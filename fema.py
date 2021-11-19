@@ -38,9 +38,11 @@ def store_risks(risk_name, risk_sev, risk_hid, risk_lik, result):
 
 def display_results(risk_name, risk_sev, risk_hid, risk_lik):
     #function to display results
-    
-    for results in fema_results_dict.values():
-        print(results\n)
+    for key, value in fema_results_dict.items():
+        print('{}: {}'.format(key, value))
+    #print(fema_results_dict)
+    '''for results in fema_results_dict.values():
+        print(results)'''
 '''
 def display_results(risk_name, risk_sev, risk_hid, risk_lik, result):
     print('risk name | risk sev | risk hid | risk lik | result')
@@ -79,7 +81,7 @@ def user_risks():
             user_risks()
         elif risk_sev or risk_hid or risk_lik != int:
             print('not valid')
-        elif risk_name == show:
+        elif risk_name == 'show':
             display_results()
         else:
             print('out of range')
