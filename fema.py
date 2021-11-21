@@ -83,7 +83,7 @@ def user_risks():
             print('out of range')
 
 def screen_options():
-    str(input('would you like to\nshow: display results\nQUIT: to quit app \nrun: use application'))
+    menu_input = str(input('would you like to\nshow: display results\nQUIT: to quit app \nrun: use application'))
     if menu_input == 'show':
             run = False
             display_results(risk_name, risk_sev, risk_hid, risk_lik)
