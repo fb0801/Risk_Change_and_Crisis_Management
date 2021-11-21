@@ -82,16 +82,23 @@ def user_risks():
         else:
             print('out of range')
 
+def screen_options():
+    str(input('would you like to\n show: display results\n QUIT: to quit app \n run: use application'))
+     if menu_input == 'show':
+            run = False
+            display_results(risk_name, risk_sev, risk_hid, risk_lik)
+    elif menu_input =="run":
+        user_risks()
+    elif menu_input =="QUIT":
+        quit
+    else:
+        print('Sorry i dont understand')
+        screen_options()
+    
 
 def main_menu():
     print('Welcome to the FEMA application!')
-    str(input('would you like to\n show: display results\n QUIT: to quit app \n run: use application'))
-     if menu_input == 'QUIT' or 'show':
-            run = False
-            display_results(risk_name, risk_sev, risk_hid, risk_lik)
-    elif menu_input =="run"
-        user_risks()
-
+    screen_options()
 
 
 if __name__ =='__main__':
