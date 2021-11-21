@@ -84,7 +84,7 @@ def user_risks():
 
 def screen_options():
     str(input('would you like to\n show: display results\n QUIT: to quit app \n run: use application'))
-     if menu_input == 'show':
+    if menu_input == 'show':
             run = False
             display_results(risk_name, risk_sev, risk_hid, risk_lik)
     elif menu_input =="run":
