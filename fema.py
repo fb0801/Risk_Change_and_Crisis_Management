@@ -70,10 +70,6 @@ def user_risks():
         risk_hid = int(input('Enter hideability between 1-10: '))
         risk_lik = int(input('Enter likelyhood between 1-10 : '))
         
-        if risk_name == 'QUIT' or 'show':
-            run = False
-            display_results(risk_name, risk_sev, risk_hid, risk_lik)
-        
 
         if risk_sev and risk_hid and risk_lik in range(1,10):
             calculate_results(risk_name, risk_sev, risk_hid, risk_lik)
@@ -88,8 +84,13 @@ def user_risks():
 
 
 def main_menu():
-    print('Welcome to the FEMA application')
-    user_risks()
+    print('Welcome to the FEMA application!')
+    str(input('would you like to '))
+     if menu_input == 'QUIT' or 'show':
+            run = False
+            display_results(risk_name, risk_sev, risk_hid, risk_lik)
+    elif menu_input ==""
+        user_risks()
 
 
 
