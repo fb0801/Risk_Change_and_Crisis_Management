@@ -65,6 +65,7 @@ def user_risks():
 
     while run:
         #while running will ask for the risk name and other factors
+        screen_options()
         risk_name=str(input('Enter name: ')) #takes user input
         risk_sev = int(input('Enter severity between 1-10: '))
         risk_hid = int(input('Enter hideability between 1-10: '))
