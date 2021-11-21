@@ -85,11 +85,11 @@ def user_risks():
 
 def main_menu():
     print('Welcome to the FEMA application!')
-    str(input('would you like to '))
+    str(input('would you like to\n show: display results\n QUIT: to quit app \n run: use application'))
      if menu_input == 'QUIT' or 'show':
             run = False
             display_results(risk_name, risk_sev, risk_hid, risk_lik)
-    elif menu_input ==""
+    elif menu_input =="run"
         user_risks()
 
 
