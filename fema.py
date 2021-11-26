@@ -65,30 +65,40 @@ def user_risks():
 
     while run:
         #while running will ask for the risk name and other factors
-       
-        risk_name=str(input('Enter name: ')) #takes user input
-        risk_sev = int(input('Enter severity between 1-10: '))
-        risk_hid = int(input('Enter hideability between 1-10: '))
-        risk_lik = int(input('Enter likelyhood between 1-10 : '))
-        screen_options()
+        menu_input = str(input('would you like to\nshow: display results\nQUIT: to quit app \nrun: use application\noption: '))
+        if menu_input == 'show':
+            run = False
+            display_results(risk_name, risk_sev, risk_hid, risk_lik)
+        elif menu_input =="run":
+            risk_name=str(input('Enter name: ')) #takes user input
+            risk_sev = int(input('Enter severity between 1-10: '))
+            risk_hid = int(input('Enter hideability between 1-10: '))
+            risk_lik = int(input('Enter likelyhood between 1-10 : '))
+            #screen_options()
         
 
-        if risk_sev and risk_hid and risk_lik in range(1,10):
-            calculate_results(risk_name, risk_sev, risk_hid, risk_lik)
-            
-            user_risks()
-        elif risk_sev or risk_hid or risk_lik != int:
-            print('not valid')
-        elif risk_name == 'show':
-            display_results()
+            if risk_sev and risk_hid and risk_lik in range(1,10):
+                calculate_results(risk_name, risk_sev, risk_hid, risk_lik)
+                user_risks()
+            elif risk_sev or risk_hid or risk_lik != int:
+                print('not valid')
+            elif risk_name == 'show':
+                display_results()
+            else:
+                print('out of range')
+        elif menu_input =="QUIT":
+            quit
         else:
-            print('out of range')
+            print('Sorry i dont understand')
+            screen_options()
+        
+       
 
 def screen_options():
     menu_input = str(input('would you like to\nshow: display results\nQUIT: to quit app \nrun: use application\noption: '))
     if menu_input == 'show':
             run = False
-            display_results()
+            display_results(risk_name, risk_sev, risk_hid, risk_lik)
     elif menu_input =="run":
         user_risks()
     elif menu_input =="QUIT":
@@ -100,7 +110,8 @@ def screen_options():
 
 def main_menu():
     print('Welcome to the FEMA application!')
-    screen_options()
+    # screen_options()
+    user_risks()
 
 
 if __name__ =='__main__':
