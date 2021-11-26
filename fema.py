@@ -32,7 +32,7 @@ def store_risks(risk_name, risk_sev, risk_hid, risk_lik, result):
     fema_risk_lik.append(risk_lik)
     fema_result.append(result)
     '''
-    fema_results_dict["risk name"]= risk_name
+    fema_results_dict["risk_name"]= risk_name
     fema_results_dict['risk_sev'] = risk_sev
     fema_results_dict['risk_hid'] = risk_hid
     fema_results_dict['risk_lik'] = risk_lik
@@ -90,6 +90,9 @@ def user_risks():
                     risk_sev = int(input('Enter severity between 1-10: '))
                     risk_hid = int(input('Enter hideability between 1-10: '))
                     risk_lik = int(input('Enter likelyhood between 1-10 : '))
+                else:
+                    print('Sorry i dont understand')
+                    #screen_options()
                 
                 #user_risks()
             elif risk_sev or risk_hid or risk_lik != int:
