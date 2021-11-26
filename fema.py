@@ -70,7 +70,7 @@ def user_risks():
         menu_input = str(input('would you like to\nshow: display results\nQUIT: to quit app \nrun: use application\noption: '))
         if menu_input == 'show':
             run = False
-            display_results()
+            display_results(risk_name, risk_sev, risk_hid, risk_lik)
         elif menu_input =="run":
             risk_name=str(input('Enter name: ')) #takes user input
             risk_sev = int(input('Enter severity between 1-10: '))
@@ -81,7 +81,17 @@ def user_risks():
 
             if risk_sev and risk_hid and risk_lik in range(1,10):
                 calculate_results(risk_name, risk_sev, risk_hid, risk_lik)
-                user_risks()
+                menu_input = str(input('would you like to\nshow: display results\nQUIT: to quit app \nrun: use application\noption: '))
+                if menu_input == 'show':
+                    run = False
+                    display_results(risk_name, risk_sev, risk_hid, risk_lik)
+                elif menu_input =="run":
+                    risk_name=str(input('Enter name: ')) #takes user input
+                    risk_sev = int(input('Enter severity between 1-10: '))
+                    risk_hid = int(input('Enter hideability between 1-10: '))
+                    risk_lik = int(input('Enter likelyhood between 1-10 : '))
+                
+                #user_risks()
             elif risk_sev or risk_hid or risk_lik != int:
                 print('not valid')
             elif risk_name == 'show':
