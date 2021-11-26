@@ -70,7 +70,7 @@ def user_risks():
         menu_input = str(input('would you like to\nshow: display results\nQUIT: to quit app \nrun: use application\noption: '))
         if menu_input == 'show':
             run = False
-            display_results(risk_name, risk_sev, risk_hid, risk_lik)
+            display_results()
         elif menu_input =="run":
             risk_name=str(input('Enter name: ')) #takes user input
             risk_sev = int(input('Enter severity between 1-10: '))
