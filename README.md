@@ -40,6 +40,7 @@ If you do use this please reference it
   <li>https://stackoverflow.com/questions/33458074/how-to-create-a-table-in-python</li>
   <li>https://careerkarma.com/blog/python-add-to-dictionary/</li>
   <li>https://www.programiz.com/python-programming/methods/list/append</li>
+  <li>https://realpython.com/inner-functions-what-are-they-good-for/ </li>
   </ul>
 
 
