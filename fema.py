@@ -16,10 +16,10 @@ fema_risk_lik = []
 fema_result = []
 
 fema_results_dict = {
-"risk name":"name",
-"risk sev":'',
-"risk hid":'',
-"risk lik":'',
+"risk_name":"",
+"risk_sev":'',
+"risk_hid":'',
+"risk_lik":'',
 "result": ''
     }
 
