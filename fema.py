@@ -7,7 +7,7 @@ likely = prob
 severity = impact
 hide = risk of us not seeing it
 '''
-global risk_name
+#global risk_name
 
 fema_result_name = []
 fema_risk_sev = []
