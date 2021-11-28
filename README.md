@@ -44,6 +44,7 @@ If you do use this please reference it
   <li>https://stackoverflow.com/questions/63122321/how-to-store-users-input-into-dictionary-python</li>
   <li> https://stackoverflow.com/questions/7002429/how-can-i-extract-all-values-from-a-dictionary-in-python</li>
   <li>https://thispointer.com/python-print-all-values-of-a-dictionary/</li>
+  <li>https://thispointer.com/python-print-specific-key-value-pairs-of-dictionary/</li>
   </ul>
 
 
