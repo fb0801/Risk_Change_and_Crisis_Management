@@ -16,10 +16,10 @@ fema_risk_lik = []
 fema_result = []
 
 fema_results_dict = {
-"risk_name":"",
-"risk_sev":'',
-"risk_hid":'',
-"risk_lik":'',
+"risk name":"",
+"risk sev":'',
+"risk hid":'',
+"risk lik":'',
 "result": ''
     }
 
@@ -41,7 +41,7 @@ def store_risks(risk_name, risk_sev, risk_hid, risk_lik, result):
 def display_results(risk_name, risk_sev, risk_hid, risk_lik):
     #function to display results
     for key, value in fema_results_dict.items():
-        print('{}: {}'.format(key, value))
+        print('{}: {}, {}: {}, {}: {}, {}:{}, {}:{}'.format(key, value))
     #print(fema_results_dict)
     '''for results in fema_results_dict.values():
         print(results)'''
