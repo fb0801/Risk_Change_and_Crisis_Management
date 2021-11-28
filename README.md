@@ -43,6 +43,7 @@ If you do use this please reference it
   <li>https://realpython.com/inner-functions-what-are-they-good-for/ </li>
   <li>https://stackoverflow.com/questions/63122321/how-to-store-users-input-into-dictionary-python</li>
   <li> https://stackoverflow.com/questions/7002429/how-can-i-extract-all-values-from-a-dictionary-in-python</li>
+  <li>https://thispointer.com/python-print-all-values-of-a-dictionary/</li>
   </ul>
 
 
