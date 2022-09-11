@@ -46,6 +46,7 @@ If you do use this please reference it
   <li> https://stackoverflow.com/questions/7002429/how-can-i-extract-all-values-from-a-dictionary-in-python</li>
   <li>https://thispointer.com/python-print-all-values-of-a-dictionary/</li>
   <li>https://thispointer.com/python-print-specific-key-value-pairs-of-dictionary/</li>
+  <li>https://www.w3schools.com/python/python_dictionaries_add.asp</li>
   </ul>
 
 
