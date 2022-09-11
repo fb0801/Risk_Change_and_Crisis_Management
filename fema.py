@@ -42,6 +42,10 @@ def display_results(risk_name, risk_sev, risk_hid, risk_lik):
     #function to display results
     for key, value in fema_results_dict.items():
         print('{}: {}'.format(key, value))
+        if key not in fema_results_dict:
+            print("Not found")
+            screen_options()
+
         
     #print(fema_results_dict)
     '''for results in fema_results_dict.values():
