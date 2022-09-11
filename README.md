@@ -33,6 +33,7 @@ If you do use this please reference it
   <li>https://www.youtube.com/watch?v=iUKCIh3SotE</li>
   <li>https://www.youtube.com/watch?v=1TgOQvZ88hw</li>
   <li>https://www.youtube.com/watch?v=BfS2H1y6tzQ</li>
+  <li>https://stackoverflow.com/questions/52279248/finding-an-item-not-in-list-python</li>
   <li>https://www.programiz.com/python-programming/examples/random-number</li>
   <li>https://www.freecodecamp.org/news/python-do-while-loop-example/</li>
   <li>https://www.youtube.com/watch?v=jiPmaif9szQ</li>
