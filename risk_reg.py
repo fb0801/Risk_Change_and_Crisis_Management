@@ -1,26 +1,46 @@
+#application modules
 import pathlib
 import os.path
+from pathlib import Path
+
 
 risk_key= {
     "ID":" ",
     "Risk name":" ",
+    "Impact Level":"",
+    "Risk Response":"",
+    "Risk Owner":"",
+    "Priority":"",
+    "Risk Status":""
+
 }
+
+text = 'Risk Register' #text to put into the database
+text2= 'ID' #puts the text in the file as a header
+text3= 'Risk Name' #puts the text in the file as a header
+text4 = 'Impact Level' #puts the text in the file as a header
+text5 = 'Risk Response' #puts the text in the file as a header
+text6 = 'Risk Owner' #puts the text in the file as a header
+text7 = "Priority"# put txt in file as header
+text8 = 'risk status' #puts the text in the file as a header
+
 def file_check():
     path_to_file = 'risk_reg.csv'
     path = Path(path_to_file)
 
     if path.is_file():
         print('File exists')
+        file = open('risk_reg.csv', 'r+')
+        menu()
 
     else:
         print('The file does not exist making file')
+        file = open('risk_reg.csv', 'w+')
+        menu()
 
-
-file = open('risk_reg.csv', 'w+')
-if file 
 
 def add():
-    pass
+    #adding to the applicationn 
 
 def remove():
     pass
