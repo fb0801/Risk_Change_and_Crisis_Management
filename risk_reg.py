@@ -41,6 +41,7 @@ def file_check():
 
 def add():
     #adding to the applicationn 
+    pass
 
 def remove():
     pass
