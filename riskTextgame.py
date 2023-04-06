@@ -16,14 +16,12 @@ character_class_list ={
 "A":"Project Manager",
 "C":"Risk Manager",
 "L":"Consultant",
-"S":"Saber",
-"R":"Rider",
 "AA":"Assassin",
 
 "X":"Random character"
     }
 
-health =10
+health = 10
 budget = 10000
 total = 0
 
@@ -43,10 +41,6 @@ def game_name_change():
             print(f'We could have given you a better name {user_new_name}')
         else:
             game_name_change()
-
-        
-   # elif user_choice_2:
-    #    game_age_checker()
 
     else:
         print('Sorry I dont understand')
