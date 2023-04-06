@@ -47,6 +47,7 @@ If you do use this please reference it
   <li>https://thispointer.com/python-print-all-values-of-a-dictionary/</li>
   <li>https://thispointer.com/python-print-specific-key-value-pairs-of-dictionary/</li>
   <li>https://www.w3schools.com/python/python_dictionaries_add.asp</li>
+  <li>https://stackoverflow.com/questions/31715119/how-can-i-open-a-website-in-my-web-browser-using-python</li>
   </ul>
 
 
