@@ -1,6 +1,6 @@
 # Risk_Change_and_Crisis_Management
 <h4>Description:</h4>
-code for risk change and crisis mangement assignment to make a monte carlo simulation and other tools for risk management
+code for risk change and crisis mangement assignment to make a monte carlo simulation and other tools for risk management, includes games commandline and gui to teach risk management and try to make it more fun
 
 
 <h4>Requirements:</h4>
